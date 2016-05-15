@@ -61,11 +61,11 @@
 /* Slider size and handle placement;
  */
 .noUi-horizontal {
-	height: 18px;
+	height: 36px;
 }
 .noUi-horizontal .noUi-handle {
 	width: 34px;
-	height: 28px;
+	height: 46px;
 	left: -17px;
 	top: -6px;
 }
@@ -86,7 +86,7 @@
 	box-shadow: inset 0 1px 1px #f0f0f0;
 }
 .noUi-connect {
-	background: #3FB8AF;
+	background: #48890B;
 	box-shadow: inset 0 0 3px rgba(51,51,51,0.45);
 -webkit-transition: background 450ms;
 	transition: background 450ms;

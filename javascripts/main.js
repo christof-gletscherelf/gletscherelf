@@ -24,7 +24,11 @@ window.onload = function() {
       },
       format: wNumb({
         decimals: 0,
-      })
+      }),
+      pips: {
+        mode: 'values',
+        values: [0,15,30,45,60,75,90]
+      }
     });
 
     var fromMinute = document.getElementById('fromMinute');
