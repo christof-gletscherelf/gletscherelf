@@ -2,9 +2,9 @@ window.onload = function() {
     // create a heatmap instance
     var heatmap = h337.create({
       container: document.getElementById('heatmapContainer'),
-      maxOpacity: 0.6,
-      radius: 50,
-      blur: 0.9,
+      maxOpacity: 0.5,
+      radius: 20,
+      blur: 1.0,
     });
     var heatmapContainer = document.getElementById('heatmapContainerWrapper');
 
@@ -15,7 +15,7 @@ window.onload = function() {
     var fieldHeight = img.clientHeight;
 
     noUiSlider.create(dragSlider, {
-      start: [10, 20],
+      start: [0, 15],
       behaviour: 'drag',
       connect: true,
       range: {
