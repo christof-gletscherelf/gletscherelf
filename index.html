@@ -3,20 +3,21 @@
 
 <head>
   <meta charset="utf-8">
+
   <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
   <link rel="stylesheet" href="stylesheets/nouislider.css">
   <link rel="stylesheet" href="stylesheets/nouislider.tooltips.css">
   <link rel="stylesheet" href="stylesheets/heatmap.css">
 
-
   <title>Gletscherelf Bewegungsprofil</title>
+
 </head>
 
 <body>
 
   <div id="heatmapContainerWrapper">
     <div id="heatmapContainer">
-
       <img id="footballfield" src="images/bg.jpg" />
     </div>
   </div>
@@ -26,8 +27,10 @@
   </div>
 
   <div class="row">
-      <input id="fromMinute"/>
-      <input id="toMinute"/>
+    <form>
+      From Minute: <input id="fromMinute"/>
+      To Minute: <input id="toMinute"/>
+    </form>
   </div>
 
   <script src="javascripts/heatmap.js"></script>

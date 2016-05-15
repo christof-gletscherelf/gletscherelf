@@ -77,8 +77,5 @@ window.onload = function() {
       toMinute.value = values[1];
       heatmap.setData(getPartialGameCoordinates(fromMinute.value, toMinute.value));
       heatmap.repaint();
-
     });
-
-
   };
