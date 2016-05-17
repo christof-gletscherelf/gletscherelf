@@ -14,6 +14,20 @@ window.onload = function() {
     var fieldWidth = img.clientWidth;
     var fieldHeight = img.clientHeight;
 
+    var goals = [12, 31, 88];
+    var values = [0,15,30,45,60,75,90];
+    var goalsAndValues = goals.concat(values);
+
+    function preparePips (value, type){
+      var goalIndex = goals.indexOf(value);
+      if (goalIndex != -1) {
+        return 1;
+      } else {
+        return 2;
+      }
+    }
+
+
     noUiSlider.create(dragSlider, {
       start: [0, 15],
       behaviour: 'drag',
@@ -27,9 +41,11 @@ window.onload = function() {
       }),
       pips: {
         mode: 'values',
-        values: [0,15,30,45,60,75,90]
+        values: goalsAndValues,
+        filter: preparePips
       }
     });
+
 
     var fromMinute = document.getElementById('fromMinute');
     var toMinute = document.getElementById('toMinute');

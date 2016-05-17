@@ -9,7 +9,7 @@
 }
 .noUi-pips {
 	position: absolute;
-	color: #999;
+	color: #f00;
 	font-size: 20px;
 }
 
@@ -19,10 +19,13 @@
 .noUi-value {
 	position: absolute;
 	text-align: center;
+	margin-top: 18px;
 }
 .noUi-value-sub {
 	color: #ccc;
-	font-size: 10px;
+	font-size: 20px;
+	margin-top: 0px;
+
 }
 
 /* Markings;
