@@ -1,14 +1,4 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-  max-width: 990px;
-}
 
-img {
-  width: 100%;
-
-}
 
 .row {
   margin: 15px auto;

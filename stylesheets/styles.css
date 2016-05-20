@@ -1,0 +1,59 @@
+html, body {
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+}
+
+.full-viewport {
+  background: green;
+  height: 100%;
+  max-height: 800px;
+  position: relative;
+}
+
+#heatmapContainerWrapper {
+
+  background: pink;
+  height: 100%;
+
+  max-width: 1000px;
+}
+
+/*
+#heatmapContainerWrapper img {
+
+    height: 100%;
+    max-width:100%;
+    max-height:100%;
+    width: auto;
+}
+*/
+
+.time-select {
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  margin: 0 auto;
+  background: yellow;
+  opacity: 0.5;
+}
+
+/* http://stackoverflow.com/questions/19192892/css-set-image-size-relative-to-parent-height */
+#heatmapContainer {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+#heatmapContainer img {
+    position:absolute;
+    top:50%;
+    min-height:100%;
+    display:block;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    min-width:100%;
+}
+
+}
