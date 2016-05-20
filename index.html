@@ -29,14 +29,17 @@
 
   <div class="row">
     <form>
-      From minute <input id="fromMinute"/>
-      to minute <input id="toMinute"/>
+      From minute <input id="fromMinute" type="text" name="from" onchange="updateFrom(this.value)"/>
+      to minute <input id="toMinute" type="text" name="from" onchange="updateTo(this.value)"/>
     </form>
+    <a id="downloadAnchorElem">download json</a>
   </div>
+
 
   <script src="javascripts/heatmap.js"></script>
   <script src="javascripts/nouislider.js"></script>
   <script src="javascripts/wNumb.js"></script>
+  <script src="javascripts/sampleReduced.js"></script>
   <script src="javascripts/main.js"></script>
 
 </body>
