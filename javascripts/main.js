@@ -98,4 +98,6 @@ window.onload = function() {
       heatmap.setData(getPartialGameCoordinates(fromMinute.value, toMinute.value));
       heatmap.repaint();
     });
+
+    //TODO mit javascript bildhöhe auf die höhe von heatmapContainer setzen
   };
